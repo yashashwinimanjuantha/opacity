@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            padding: 30px;
+            margin: 30px;
+            border: 3px solid darkblue;
+        }
+        .container div{
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background:  linear-gradient(90deg, red , blue);
+            margin-bottom: 20px;
+        }
+        .b1{filter:blur(3px);}
+        .b2{filter:blur(4px);}
+        .b3{filter:blur(5px);}
+        .b4{filter:blur(7px);}
+        .b5{filter:blur(9px);}
+        .b6{filter:blur(10px);}
+        .b7{filter:blur(11px);}
+        .b8{filter:blur(12px);}
+        .b9{filter:blur(13px);}
+        .b10{filter:blur(14px);}
+        .b11{filter:blur(15px);}
+        .img{
+            filter:sepia(100%);
+           display: block;
+           
+        }
+        img:hover{
+            filter:blur(10px) saturate(0%) invert(100%);
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Filter</h1>
+    
+    </center>
+    <section class="container">
+        <div class="b1">1</div>
+        <div class="b2">0.9</div>
+        <div class="b3">0.8</div>
+        <div class="b4">0.7</div>
+        <div class="b5">0.6</div>
+        <div class="b6">0.5</div>
+        <div class="b7">0.4</div>
+        <div class="b8">0.3</div>
+        <div class="b9">0.2</div>
+        <div class="b10">0.1</div>
+        <div class="b11">0</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbRTiwTJR4uSC0QfV_oOyecg1D31nuI9uCWw&s" style="width: 400px; height: 500px;">
+    </section>
+</body>
+</html>
